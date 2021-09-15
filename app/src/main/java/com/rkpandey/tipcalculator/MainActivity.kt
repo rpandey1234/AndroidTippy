@@ -65,7 +65,7 @@ class MainActivity : AppCompatActivity() {
         // Compute the tip and update the UI
         val tipAmount = baseAmount * tipPercent / 100
         val totalAmount = baseAmount + tipAmount
-        tvTipAmount.text = tipAmount.toString()
-        tvTotalAmount.text = totalAmount.toString()
+        tvTipAmount.text = "%.2f".format(tipAmount)
+        tvTotalAmount.text = "%.2f".format(totalAmount)
     }
 }
