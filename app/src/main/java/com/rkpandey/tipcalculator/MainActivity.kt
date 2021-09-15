@@ -1,5 +1,6 @@
 package com.rkpandey.tipcalculator
 
+import android.animation.ArgbEvaluator
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.text.Editable
@@ -8,6 +9,7 @@ import android.util.Log
 import android.widget.EditText
 import android.widget.SeekBar
 import android.widget.TextView
+import androidx.core.content.ContextCompat
 
 private const val TAG = "MainActivity"
 private const val INITIAL_TIP_PERCENT = 15
@@ -65,7 +67,12 @@ class MainActivity : AppCompatActivity() {
             else -> "Amazing"
         }
         tvTipDescription.text = tipDescription
-
+        val color = ArgbEvaluator().evaluate(
+            tipPercent.toFloat() / seekBarTip.max,
+            ContextCompat.getColor(this, R.color.colorWorstTip),
+            ContextCompat.getColor(this, R.color.colorBestTip)
+        ) as Int
+        tvTipDescription.setTextColor(color)
     }
 
     private fun computeTipAndTotal() {
