@@ -1,6 +1,6 @@
 # Tippy - A Simple Tip Calculator for Android
 
-Build Tippy as your first Android app!
+Build Tippy as your first Android app! Follow the YouTube tutorial: `TODO`
 
 <img src="https://raw.githubusercontent.com/rpandey1234/AndroidTippy/main/framed1.png" width="300">
 
@@ -8,7 +8,10 @@ Build Tippy as your first Android app!
 
 <a href='https://play.google.com/store/apps/details?id=com.rkpandey.tipcalculator'><img width="200px" src='https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png' /></a>
 
-YouTube tutorial link: `TODO`
+Features:
+- Pure Kotlin
+- Single screen
+- No libraries
 
 # License
 
