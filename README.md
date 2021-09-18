@@ -2,7 +2,7 @@
 
 Build Tippy as your first Android app!
 
-![](https://github.com/rpandey1234/AndroidTippy/blob/main/framed1.png | width=300)
+<img src="https://raw.githubusercontent.com/rpandey1234/AndroidTippy/main/framed1.png" width="300">
 
 **Author:** [Rahul Pandey](https://www.youtube.com/rpandey1234)
 
