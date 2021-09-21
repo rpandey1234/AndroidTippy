@@ -36,7 +36,6 @@
         android:layout_marginTop="32dp"
         android:text="Total"
         android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="@+id/tvTipLabel"
         app:layout_constraintTop_toBottomOf="@+id/tvTipLabel" />
 
@@ -61,7 +60,6 @@
         android:ems="8"
         android:hint="Bill amount"
         android:inputType="numberDecimal"
-        android:minHeight="48dp"
         android:textSize="24sp"
         app:layout_constraintBottom_toBottomOf="@+id/tvBaseLabel"
         app:layout_constraintStart_toEndOf="@+id/tvBaseLabel"
@@ -117,7 +115,7 @@
         android:fontFamily="sans-serif-condensed-light"
         android:text="Made with ❤ by Rahul"
         android:textAllCaps="true"
-        android:textSize="20sp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />

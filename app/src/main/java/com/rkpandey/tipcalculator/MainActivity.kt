@@ -76,8 +76,8 @@ class MainActivity : AppCompatActivity() {
         tvTipDescription.text = tipDescription
         val color = ArgbEvaluator().evaluate(
             tipPercent.toFloat() / seekBarTip.max,
-            ContextCompat.getColor(this, R.color.colorWorstTip),
-            ContextCompat.getColor(this, R.color.colorBestTip)
+            ContextCompat.getColor(this, R.color.color_worst_tip),
+            ContextCompat.getColor(this, R.color.color_best_tip)
         ) as Int
         tvTipDescription.setTextColor(color)
     }
