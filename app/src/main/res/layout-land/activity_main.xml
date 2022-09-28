@@ -93,7 +93,7 @@
         app:layout_constraintBottom_toBottomOf="@+id/tvTipLabel"
         app:layout_constraintStart_toStartOf="@+id/seekBarTip"
         app:layout_constraintTop_toTopOf="@+id/tvTipLabel"
-        tools:text="19.96" />
+        tools:text="19.26" />
 
     <TextView
         android:id="@+id/tvTotalAmount"
